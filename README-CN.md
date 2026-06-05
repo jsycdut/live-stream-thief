@@ -1,14 +1,10 @@
 # live-stream-thief
-[中文用户请看这里](./README-CN.md)
-[StreamEast](https://streameaste.cc/) is great，it provides NBA, MLB，F1 and so many other games with high quality livestream watch experience, but too many ads in it!!! Every time I click the live stream page, like fullscreen, volumes up and down, it bumps to a new ads page before it really works, which really really drives me mad.
+[streameast](https://streameaste.cc/)是一个可以观看众多赛事的直播网站，包括NBA、NFL、F1等赛事，你只要打开过这个网站就会发现，它的广告太多了，几乎你任何一次点击，都必须承受新的广告页的折磨，当然作为一个免费的网站我是理解这样的做法的，但是我的脑子实在是被这无休止的广告给折磨得够呛。
 
-this project is simple, it extracts the pure working livestream url from the ads-surronded original web page.
-All you need to do is: run the code, get the url and open it in your browser, enjoy it!
+live-stream-thief只是简单的把播放链接从网页中剥离出来，直接去到单纯的播放页，少受一点广告的折磨（并非一条广告都没有，但是比起streameast而言我只能说是几乎没有了）
 
-NOTICE: the parsed urls may contain ads too, but it seems only appears once when you click the play button first time.
-
-## usage
-make sure you know what [uv](https://docs.astral.sh/uv/) is, run the code as below.
+# 用法
+你需要[uv](https://docs.astral.sh/uv/)来运行这个项目。
 ```bash
 ➜  live-stream-thief git:(main) ✗ uv run main.py
 Atlanta Braves vs Toronto Blue Jays LIVE
