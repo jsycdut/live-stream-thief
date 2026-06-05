@@ -1,5 +1,6 @@
 # live-stream-thief
-[中文用户请看这里](./README-CN.md)
+- [中文用户请看这里](./README-CN.md)
+
 [StreamEast](https://streameaste.cc/) is great，it provides NBA, MLB，F1 and so many other games with high quality livestream watch experience, but too many ads in it!!! Every time I click the live stream page, like fullscreen, volumes up and down, it bumps to a new ads page before it really works, which really really drives me mad.
 
 this project is simple, it extracts the pure working livestream url from the ads-surronded original web page.
